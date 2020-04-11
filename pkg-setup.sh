@@ -87,13 +87,8 @@ echo " "
 echo " "
 echo " Installing........... "
 sleep 7
-mkdir music
 echo " "
-cp Faded-1.mp3 Faded-2.mp3 music
-echo
 echo " "
-cd music
-echo 
 mpv Faded-1.mp3 Faded-2.mp3
 echo " "
 if [ $opt -eq 2 ];then
