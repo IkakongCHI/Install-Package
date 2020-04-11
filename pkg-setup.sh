@@ -143,6 +143,10 @@ echo " "
 p
 echo
 q
+echo " "
+clear
+echo " "
+sleep 2
 echo -e "\e[1;34m"
 echo "             WECOME TO TERMUX TERMINAL "
 echo " "
