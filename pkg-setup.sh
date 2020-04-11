@@ -1,5 +1,7 @@
 #!/bin/sh
 echo " "
+echo " v.0.1.00 "
+echo " "
 echo -e "\e[1;92m" 
 echo " Installing music player "
 echo " Please wait..... "
@@ -84,16 +86,14 @@ echo " "
 echo " Installing........... "
 echo " "
 fi
+
 if [ $opt -eq 2 ];then
 echo " "
 echo " "
 echo " Installing........... "
 sleep 7
 echo " "
-echo " "
 mpv Faded-1.mp3 Faded-2.mp3
-echo " "
-if [ $opt -eq 2 ];then
 echo " "
 echo " "
 apt update
@@ -149,6 +149,7 @@ echo " "
 sleep 7
 echo " "
 fi
+
 if [ $opt -eq 1 ];then
 echo " "
 clear
