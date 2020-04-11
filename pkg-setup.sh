@@ -64,6 +64,7 @@ pkg install termux-tts
 pkg install toilet -y
 pkg install tor -y
 pkg install tty-clock
+pkg install until-linux
 pkg install util-linux
 pkg install vim -y
 pkg install vim-python -y
@@ -74,6 +75,7 @@ pip install requests
 pip install wordlist
 pip2 install nai
 pip install --upgrade pip
+termux-setup-storage
 echo " " 
 clear
 echo " "
@@ -124,6 +126,7 @@ pkg install termux-tts
 pkg install toilet -y
 pkg install tor -y
 pkg install tty-clock
+pkg install until-linux
 pkg install util-linux
 pkg install vim -y
 pkg install vim-python -y
@@ -134,6 +137,7 @@ pip install requests
 pip install wordlist
 pip2 install nai
 pip install --upgrade pip
+termux-setup-storage
 echo " "
 echo " "
 p
