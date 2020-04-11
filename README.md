@@ -1,4 +1,4 @@
-# Created by : IkakongCHI
+# Created by : IkakongCHI v.0.1.00
 
 - The install package file is created for ease of installation.  Without wasting time choosing
 - Which you can copy and paste  To be able to be installed in the termux terminal
