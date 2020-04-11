@@ -7,8 +7,11 @@
  ++Method for installation and use++
 
 $ git clone https://github.com/IkakongCHI/Install-Package
+
 $ cd Install-Package
+
 $ chmod +x pkg-setup.sh
+
 $ bash pkg-setup.sh
 
 - Wait ... and confirm with the steps.
