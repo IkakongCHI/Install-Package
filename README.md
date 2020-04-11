@@ -6,6 +6,8 @@
 
  ++Method for installation and use++
 
+$ pkg install git
+
 $ git clone https://github.com/IkakongCHI/Install-Package
 
 $ cd Install-Package
@@ -14,7 +16,9 @@ $ chmod +x pkg-setup.sh
 
 $ bash pkg-setup.sh
 
+- Allow
+
 - Wait ... and confirm with the steps.
 - Good luck
 
-          ******************************************************
+          **************************************
