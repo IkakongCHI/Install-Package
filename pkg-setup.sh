@@ -81,10 +81,6 @@ termux-setup-storage
 echo " " 
 clear
 echo " "
-sleep 2
-echo " "
-echo " Installing........... "
-echo " "
 fi
 
 if [ $opt -eq 2 ];then
@@ -146,23 +142,28 @@ q
 echo " "
 clear
 echo " "
+echo -e "\e[1;92m "
+echo " Installation is complete "
 sleep 2
+echo " "
 echo -e "\e[1;34m"
 echo "             WECOME TO TERMUX TERMINAL "
 echo " "
-sleep 7
-echo " "
+exit
+exit
 fi
 
 if [ $opt -eq 1 ];then
 echo " "
-clear
-echo " "
+echo -e "\e[1;92m "
+echo " Installation is complete "
 sleep 2
+echo " "
 echo -e "\e[1;34m"  
 echo "             WECOME TO TERMUX TERMINAL "
 echo " "
 sleep 7
+exit
 exit
 exit
 fi
